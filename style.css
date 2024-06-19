@@ -1,0 +1,67 @@
+
+.navbar {
+    background-color: gray;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #000dff;
+  }
+  
+  .nav-link {
+    color: #337ab7;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: #23527c;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #003a9f;
+    border-radius: 5%;
+  }
+  
+  .form-control:focus {
+    border-color: #337ab7;
+    box-shadow: 0 0 0 0.2rem rgba(51, 122, 183, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #23527c;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+
+  .overflow {
+    overflow-y: hidden;
+  }
